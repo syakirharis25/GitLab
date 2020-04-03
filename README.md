@@ -25,7 +25,8 @@ GitLab official website : https://about.gitlab.com <br />
 
 <a name="developers"></a>
 ## 3. GitLab developers.
-[ draft ]
+Dmitriy Zaporozhets : https://github.com/dzaporozhets, https://twitter.com/dzaporozhets <br />
+Valery Sizov : https://twitter.com/_ValerySizov_ <br />
  
 <a name="github"></a>
 ## 5. GitHub notes.
