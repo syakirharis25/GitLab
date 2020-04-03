@@ -4,9 +4,30 @@ My works related to GitLab, a web-based DevOps lifecycle tool that provides a Gi
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
-3. [GitLab developers.](#developers)
-4. [GitHub notes.](#github)
-5. [GitHub repository calculation.](#calculation)
+3. [Initializing GitLab.](#initializing) 
+4. [GitLab developers.](#developers)
+5. [GitHub notes.](#github)
+6. [GitHub repository calculation.](#calculation)
+
+<a name="initializing"></a>
+## 3. Initializing GitLab.
+Type on your browser address bar `https://gitlab.com/users/sign_up` and press **[ Enter ]**, then register your GitLab account under `Register for GitLab` label stated there, fill-in all the required information on the form shown. Then type on your browser address bar `https://bitnami.com/stacks` and press **[ Enter ]**, under the text box below `Search applications` label, type `GitLab` and press **[ Enter ]**, when the word `GitLab CE` shown on your active browser, **[ Mouse Left Click ]** on it. Wait for the new page to appear, then  **[ Mouse Left Click ]** the word **[ Virtual Machines ]**, the text box will turn into yellow colour when your mouse hover over that text. Then check your active web browser address bar, the address of the website is changed into `https://bitnami.com/stack/gitlab/virtual-machine`, press **[ Ctrl ]** + **[ F ]**, then type `Download .VMDK format`, check on your web browser, the same text with orange colour on it, then  **[ Mouse Left Click ]** that `Download .VMDK format` text on your web browser and wait until your web browser download that folder into your local machine.
+
+On your local machine, **[ Mouse Right Click ]** the zip folder that you downloaded earlier, in this case `bitnami-gitlab-12.9.2-0-linux-debian-9-x86_64.zip`, then **[ Mouse Hover ]** into 7-Zip, the 7zip application can be downloaded from : https://www.7-zip.org, then **[ Mouse Left Click ]** into the text `Extract to "bitnami-gitlab-12.9.2-0-linux-debian-9-x86_64.zip"`, then open the newly created `bitnami-gitlab-12.9.2-0-linux-debian-9-x86_64` folder in your local machine by **[ Mouse Double Click ]** on that folder, then **[ Mouse Double Click ]** on `bitnami-gitlab-12.9.2-0-linux-debian-9-x86_64.vmx` file to run the Bitnami Virtual Machine file of GitLab using your hypervisor software such as VMWare Workstation Player, https://www.vmware.com/my/products/workstation-player/workstation-player-evaluation.html or Oracle Virtualbox, https://www.virtualbox.org.
+
+When your selected hypervisor virtual machine fully initialized on your local machine, enter debian login : `bitnami` and press **[ Enter ]** and the Password: `bitnami`. Wait at least 2 minutes or equivalent to 120 seconds for GitLab fully initialized on your virtual machine.
+
+Do the below commands to check whether GitLab is fully initialized or not on your virtual machine.
+```
+$ ls
+$ cat bitnami_credentials
+```
+
+When the GitLab is fully initialized, take note of the default username and the password shown on the screen.
+
+If the GitLab is not fully initialized yet or it takes too long to initialized, then shut down completely the virtual machine, then start again the Bitnami GitLab virtual machine, enter debian login : `bitnami` and press **[ Enter ]** and the Password: `bitnami`, and do this below commands.
+```
+$ sudo gitlab-ctl tail
 
 <a name="introduction"></a>
 ## 1. Introduction.
