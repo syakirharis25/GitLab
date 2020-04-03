@@ -24,7 +24,7 @@ GitLab users in Crimea, Cuba, Iran, North Korea, Sudan, and Syria may not be acc
 GitLab official website : https://about.gitlab.com <br />
 
 <a name="developers"></a>
-## 3. ASP.NET Core developers.
+## 3. GitLab developers.
 [ draft ]
  
 <a name="github"></a>
