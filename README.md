@@ -27,6 +27,9 @@ GitLab official website : https://about.gitlab.com <br />
 BITNAMI GITLAB CE STACK : https://bitnami.com/stack/gitlab <br />
 VMWare : https://www.vmware.com <br />
 
+**_GitLab documentation by GitLab_** <br />
+502-Whoops, GitLab is taking too much time to respond by GitLab : https://gitlab.com/gitlab-org/gitlab-foss/issues/30095 <br />
+
 <a name="developers"></a>
 ## 3. GitLab developers.
 Dmitriy Zaporozhets : https://github.com/dzaporozhets, https://twitter.com/dzaporozhets <br />
