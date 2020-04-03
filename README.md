@@ -23,6 +23,9 @@ GitLab users in Crimea, Cuba, Iran, North Korea, Sudan, and Syria may not be acc
 ## 2. Official references websites.
 GitLab official website : https://about.gitlab.com <br />
 
+*__GitLab related tools__** <br />
+BITNAMI GITLAB CE STACK : https://bitnami.com/stack/gitlab <br />
+
 <a name="developers"></a>
 ## 3. GitLab developers.
 Dmitriy Zaporozhets : https://github.com/dzaporozhets, https://twitter.com/dzaporozhets <br />
