@@ -25,6 +25,7 @@ GitLab official website : https://about.gitlab.com <br />
 
 **__GitLab related tools__** <br />
 BITNAMI GITLAB CE STACK : https://bitnami.com/stack/gitlab <br />
+VMWare : https://www.vmware.com <br />
 
 <a name="developers"></a>
 ## 3. GitLab developers.
